@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+body {
+  color: white;
+  background: rgb(6, 3, 15);
+}
+.navbg {
+  background: rgb(6, 3, 15);
+}
+.gridbg {
+  background-image: url("/images/grid.svg");
+  background-repeat: repeat;
+  background-size: 30px;
+  opacity: 0.4;
+}
+/* .grainbg {
+  background-image: url("/images/grains.png");
+  background-repeat: repeat;
+  background-size: 120px;
+  opacity: 0.3;
+} */
+.curvedbg {
+  background-image: url("/images/Rectangle\ 26.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+}
+/* .curvedbg-2 {
+  background-image: url("/images/Rectangle\ 262.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+} */
